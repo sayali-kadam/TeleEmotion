@@ -1,0 +1,15 @@
+What:
+The human face has peculiar and specific characteristics, therefore it becomes difficult in understanding and identifying the facial expressions.
+TeleEmotion will be helphul for you for accurately identify emotions.
+TeleEmotion is an interactive tool between humans and computers.
+This website aims to detect faces from any given image or real time faces, extract facial features (eyes and lips) and classify them 
+into 6 emotions (happy, fear, anger, disgust, neutral, sadness). 
+Offer:
+Real time emotion recognition:
+It will be helpful for recognize your real time face. Based on that it will give you the result.
+Note:
+1. Keep minimum 25 cm distance between camera and human face.
+2. Keep your eyes open.
+3. Need of dark background if it will not detect the face adjust your position.
+Past emotion recognition:
+It will detect your past pictures and make process on that. Based on that it will give you the result.
