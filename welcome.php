@@ -35,9 +35,9 @@
           <h4 style="color: #f1e4f7; font-size: 30px;"><?php echo $_SESSION['username']; ?></h4>
         <?php endif ?>
       </center>
-      <a href="index.html"><i class="fa fa-desktop"></i><span>Dashboard</span></a>
-      <a href="about.html"><i class="fa fa-info-circle"></i><span>About</span></a>
-      <a href="service.html"><i class="fa fa-question-circle"></i><span>Service</span></a>
+      <a href="index.php"><i class="fa fa-desktop"></i><span>Dashboard</span></a>
+      <a href="about.php"><i class="fa fa-info-circle"></i><span>About</span></a>
+      <a href="service.php"><i class="fa fa-question-circle"></i><span>Service</span></a>
       <?php if (isset($_SESSION["username"])): ?>
       <a href="welcome.php?logout='1'"><i class="fa fa-power-off"></i><span>Logout</span></a>
       <?php endif ?>
