@@ -5,7 +5,11 @@
     $errors = array();
 
     // Connect to the SQLiteDatabase
-    $db = mysqli_connect("localhost", "root", "", "face_recognition");
+    //Local database connection
+    //$db = mysqli_connect("localhost", "root", "", "face_recognition");
+
+    //Remote database connection
+    $db = mysqli_connect("remotemysql.com", "XNfSiUVNTQ", "jFNwLIGAN0", "XNfSiUVNTQ");
 
     //If the register button is clicked
     if (isset($_POST['register'])) {
