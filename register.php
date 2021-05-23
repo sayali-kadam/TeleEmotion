@@ -10,8 +10,8 @@
   </head>
   <body class="register">
     <header>
-      <a href="index.html"><h1 class="domain text-capitalize"> TeleEmotion </h1></a>
-      <a href="index.html"><i class="fa-2x fa fa-backward" aria-hidden="true" style="color: white; margin-top: -100px; float: right;"></i></a>
+      <a href="index.php"><h1 class="domain text-capitalize"> TeleEmotion </h1></a>
+      <a href="index.php"><i class="fa-2x fa fa-backward" aria-hidden="true" style="color: white; margin-top: -100px; float: right;"></i></a>
     </header>
     <div class="Can">
     <!-- display validation errors here -->
