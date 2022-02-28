@@ -8,7 +8,7 @@
     //$db = mysqli_connect(server_name, username, password, Database_name);
 
     //Local database connection
-    //$db = mysqli_connect("localhost", "root", "", "face_recognition");
+    // $db = mysqli_connect("localhost", "root", "", "face_recognition");
 
     //Remote database connection
     // $db = mysqli_connect("remotemysql.com", "XNfSiUVNTQ", "jFNwLIGAN0", "XNfSiUVNTQ");
