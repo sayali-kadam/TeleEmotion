@@ -5,11 +5,16 @@
     $errors = array();
 
     // Connect to the SQLiteDatabase
+    //$db = mysqli_connect(server_name, username, password, Database_name);
+
     //Local database connection
     //$db = mysqli_connect("localhost", "root", "", "face_recognition");
 
     //Remote database connection
-    $db = mysqli_connect("remotemysql.com", "XNfSiUVNTQ", "jFNwLIGAN0", "XNfSiUVNTQ");
+    // $db = mysqli_connect("remotemysql.com", "XNfSiUVNTQ", "jFNwLIGAN0", "XNfSiUVNTQ");
+
+    //free sql database connection
+    $db = mysqli_connect("sql6.freesqldatabase.com", "sql6475852", "b1JBSjg4J6", "sql6475852");
 
     //If the register button is clicked
     if (isset($_POST['register'])) {
